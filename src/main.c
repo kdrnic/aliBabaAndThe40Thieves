@@ -265,7 +265,8 @@ void main()
 		UpdateEnemies();
 		if(!vaseAlive) SpawnVase();
 		
-		if(windowText[6] == 82)
+		tempub1 = numberOfDaggers;
+		if(tempub1 == 40)
 		{
 			goto TreasureScreen;
 		}
